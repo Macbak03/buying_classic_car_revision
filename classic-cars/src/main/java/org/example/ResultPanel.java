@@ -23,7 +23,7 @@ public class ResultPanel extends PanelBase implements ActionListener {
         groupLayout.setHorizontalGroup(parallel);
         groupLayout.setVerticalGroup(sequential);
 
-        JLabel title = new JLabel(TypefaceGUI.tr(multi ? "resultTitleMulti" : "resultTitleSingle"));
+        JLabel title = new JLabel(GUI.fromResource(multi ? "resultTitleMulti" : "resultTitleSingle"));
         parallel.addComponent(title);
         sequential.addComponent(title);
 
@@ -34,7 +34,7 @@ public class ResultPanel extends PanelBase implements ActionListener {
         }
 
 
-        JButton prevButton = new JButton(TypefaceGUI.tr("Prev"));
+        JButton prevButton = new JButton(GUI.fromResource("Prev"));
         prevButton.setActionCommand("prev");
         prevButton.addActionListener(this);
         prevButton.setEnabled(prevEnabled);
@@ -63,7 +63,7 @@ public class ResultPanel extends PanelBase implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         String action = e.getActionCommand();
         if (Objects.equals(action, "prev")) {
-            TypefaceGUI.prev();
+            GUI.prev();
             return;
         }
         if (Objects.equals(action, "ok")) {

@@ -31,7 +31,7 @@ public class Main {
         clips.load(rulesPath);
         clips.reset();
 
-        TypefaceGUI.startGUI(clips, resources);
-        TypefaceGUI.runEngineAndRefreshUI();
+        GUI.startGUI(clips, resources);
+        GUI.runEngineAndRefreshUI();
     }
 }

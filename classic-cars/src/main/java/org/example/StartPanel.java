@@ -21,7 +21,7 @@ public class StartPanel extends PanelBase implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (Objects.equals(e.getActionCommand(), "start")) {
-            TypefaceGUI.next(null); // (next currentID)
+            GUI.next(null); // (next currentID)
         }
     }
 }

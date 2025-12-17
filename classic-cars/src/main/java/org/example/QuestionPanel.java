@@ -31,7 +31,7 @@ public class QuestionPanel extends PanelBase implements ActionListener {
         ButtonGroup buttons = new ButtonGroup();
 
         for (String key : answerKeys) {
-            String label = TypefaceGUI.tr(key);
+            String label = GUI.fromResource(key);
             JRadioButton button = new JRadioButton(label);
             button.setActionCommand(key);
             button.addActionListener(this);
@@ -54,7 +54,7 @@ public class QuestionPanel extends PanelBase implements ActionListener {
         parallel.addComponent(nextButton);
         sequential.addComponent(nextButton);
 
-        prevButton = new JButton(TypefaceGUI.tr("Prev"));
+        prevButton = new JButton(GUI.fromResource("Prev"));
         prevButton.setActionCommand("_prev_");
         prevButton.addActionListener(this);
         prevButton.setEnabled(prevEnabled);
@@ -68,13 +68,13 @@ public class QuestionPanel extends PanelBase implements ActionListener {
         String action = event.getActionCommand();
 
         if (Objects.equals(action, "_next_")) {
-            TypefaceGUI.next(selectedKey);
+            GUI.next(selectedKey);
         } else {
             selectedKey = action;
             nextButton.setEnabled(true);
         }
         if (Objects.equals(action, "_prev_")) {
-            TypefaceGUI.prev();
+            GUI.prev();
         }
     }
 }

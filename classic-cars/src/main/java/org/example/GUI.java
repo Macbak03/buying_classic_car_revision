@@ -9,7 +9,7 @@ import java.awt.event.WindowEvent;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
-public class TypefaceGUI {
+public class GUI {
 
     private static JFrame frame;
     private static Environment clips;
@@ -38,7 +38,7 @@ public class TypefaceGUI {
     public static JFrame getFrame() { return frame; }
     public static Environment getClips() { return clips; }
 
-    public static String tr(String key) {
+    public static String fromResource(String key) {
         if (key == null) return "";
         try {
             return resources.getString(key);
@@ -119,12 +119,12 @@ public class TypefaceGUI {
         boolean prevEnabled = canPrev();
 
         if ("initial".equals(state)) {
-            new StartPanel(frame, tr(displayKey)).show();
+            new StartPanel(frame, fromResource(displayKey)).show();
             return;
         }
 
         if ("final".equals(state)) {
-            new ResultPanel(frame, tr(displayKey), prevEnabled).show();
+            new ResultPanel(frame, fromResource(displayKey), prevEnabled).show();
             return;
         }
 
@@ -136,5 +136,5 @@ public class TypefaceGUI {
             answerKeys[i] = answersPV.get(i).toString();
         }
 
-        new QuestionPanel(frame, tr(displayKey), answerKeys, defaultKey, prevEnabled).show();    }
+        new QuestionPanel(frame, fromResource(displayKey), answerKeys, defaultKey, prevEnabled).show();    }
 }
