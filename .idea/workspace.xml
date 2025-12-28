@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a933e42-57dd-48b0-b6d5-17e3aaaa2894" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-cars/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-cars/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-cars/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-cars/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-cars/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-cars/lib/CLIPSJNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-cars/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-cars/src/main/java/org/example/GUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-cars/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-cars/src/main/java/org/example/PanelBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-cars/src/main/java/org/example/QuestionPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-cars/src/main/java/org/example/ResultPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-cars/src/main/java/org/example/StartPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-cars/src/main/resources/ClassicCarsResources.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-cars/src/main/resources/buying_classic_car_revision.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-cars/src/main/resources/classiccars.clp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="37TopIp8fggJlDsmzqCuGmIDFcE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/macie/Studia/SI/buying_classic_car_revision"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a933e42-57dd-48b0-b6d5-17e3aaaa2894" name="Changes" comment="" />
+      <created>1766936603671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766936603671</updated>
+    </task>
+    <servers />
+  </component>
+</project>

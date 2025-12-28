@@ -1,5 +1,3 @@
-package org.example;
-
 import CLIPSJNI.Environment;
 import CLIPSJNI.PrimitiveValue;
 

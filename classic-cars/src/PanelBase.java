@@ -1,5 +1,3 @@
-package org.example;
-
 import java.awt.event.WindowEvent;
 
 import javax.swing.BoxLayout;

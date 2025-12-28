@@ -1,5 +1,3 @@
-package org.example;
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -21,7 +19,7 @@ public class StartPanel extends PanelBase implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (Objects.equals(e.getActionCommand(), "start")) {
-            GUI.next(null); // (next currentID)
+            GUI.next(null);
         }
     }
 }
